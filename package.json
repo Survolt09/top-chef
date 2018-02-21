@@ -5,8 +5,9 @@
   "main": "Server.js",
   "author": "Scotch",
   "dependencies": {
+    "cheerio": "latest",
     "express": "latest",
-    "request": "latest",
-    "cheerio": "latest"
+    "promise": "^8.0.1",
+    "request": "latest"
   }
 }
