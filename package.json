@@ -1,13 +1,29 @@
 {
-  "name": "node-web-scrape",
+  "name": "michelin",
   "version": "0.0.1",
-  "description": "Scrape le web.",
-  "main": "Server.js",
-  "author": "Scotch",
+  "description": "> Eat well and cheaper than usually",
+  "main": "./Michelin.js",
+  "author": "Cyril",
   "dependencies": {
     "cheerio": "latest",
     "express": "latest",
     "promise": "^8.0.1",
     "request": "latest"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Survolt09/top-chef.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Survolt09/top-chef/issues"
+  },
+  "homepage": "https://github.com/Survolt09/top-chef#readme"
 }
